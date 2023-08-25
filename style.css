@@ -1,0 +1,35 @@
+.bg-warning{
+    background-color: transparent !important;
+}
+.mt-5 {
+    margin-top: 0rem!important;
+}
+.para1{
+    text-align: justify;
+}
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 8px;
+}
+/* Add your existing CSS styles */
+
+/* Add this new CSS rule */
+.preview-container {
+    max-width: 100%;
+    max-height: 400px; /* Adjust the max-height as needed */
+    margin: 20px auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#crop-preview {
+    max-width: 100%;
+    max-height: 100%;
+}
